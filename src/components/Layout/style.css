@@ -1,0 +1,42 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: aquamarine;
+    padding-top: 60px;
+    box-shadow: inset 0 0 5px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    margin: o;
+    padding: 0;
+}
+
+.sidebar ul li {
+    list-style: initial;
+}
+
+
+.sidebar ul li{
+    display: block;
+    /* color: rgb(32, 3, 46); */
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px 0 5px 10px;
+    border-radius: 5px 0 0 5px;
+    text-decoration: none;
+}
+
+.sidebar ul li a.active{
+    /* background: #333; */
+    color: darksalmon;
+}
+
+
+
